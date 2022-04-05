@@ -37,7 +37,7 @@ const Login = () => {
   };
   const onFailure = (res) => {
     console.log("login failed : ");
-		  console.log(res);
+    console.log(res);
   };
   return (
     <div className="login-container">
@@ -47,7 +47,6 @@ const Login = () => {
         buttonText="Login"
 		onFailure={onFailure}
 	    onSuccess={onSuccess}
-        cookiePolicy={"single_host_origin"}
       />
     </div>
   );

@@ -5,7 +5,7 @@ import { Context } from "./Store";
 import { Navigate } from "react-router-dom";
 
 const clientID =
-  "459246397163-jtf744jqrab926pq1fiuek7c8fi8vjst.apps.googleusercontent.com";
+  "459246397163-l240nuqjgncqhardmec4qgc0ne8d1ece.apps.googleusercontent.com";
 
 const Login = () => {
   const [state, setState] = useContext(Context);

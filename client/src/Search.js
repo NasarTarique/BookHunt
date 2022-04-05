@@ -9,7 +9,6 @@ const Search = () => {
   const [searchquery, getSearchQuery] = useState("");
   const [booklist, getBooklist] = useState({});
   useEffect(() => {
-    console.log(booklist);
   }, [booklist]);
   if (state.name === "") {
     return <Navigate to="/" replace />;
@@ -35,7 +34,6 @@ const Search = () => {
 
 		  }
     const data = await res.json();
-    console.log(data);
     getBooklist(data);
     getSearchQuery("");
   };

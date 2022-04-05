@@ -14,8 +14,6 @@ const Login = () => {
 								
 				}
   const onSuccess = async (googlelogin) => {
-    console.log("Google Login data");
-		  console.log(googlelogin)
     const res = await fetch("/login", {
       method: "POST",
       body: JSON.stringify({
@@ -28,7 +26,6 @@ const Login = () => {
       },
     });
     const data = await res.json();
-    console.log(data.token);
     setState({
       authtoken: data.token.token,
       name: data.token.name,
@@ -37,7 +34,6 @@ const Login = () => {
   };
   const onFailure = (res) => {
     console.log("login failed : ");
-    console.log(res);
   };
   return (
     <div className="login-container">

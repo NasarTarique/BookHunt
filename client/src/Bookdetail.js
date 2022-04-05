@@ -29,7 +29,6 @@ const Bookdetail = ()=>{
 
 						})				.then(data=>{
 								setBookdata(data)
-								console.log(data)
 						})
 				
 		},[])

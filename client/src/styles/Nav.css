@@ -1,0 +1,36 @@
+*{
+		margin:none;
+		padding:0;
+		box-sizing:border-box;
+}
+.nav{
+		width:100%;
+		display:flex;
+		justify-content:space-between;
+
+}
+.nav > h1{
+		margin:none;
+		padding-left:2rem;
+}
+ .spanone{
+		color:#79CCEE;
+
+}
+ .spantwo{
+		color:#FDB515;
+
+}
+ .spanthree{
+		color:#F68F02;
+
+}
+ .spanfour{
+		color:#FE9FA1;
+
+}
+.logout-container{
+		padding-top:1rem;
+		padding-right:1rem;
+}
+

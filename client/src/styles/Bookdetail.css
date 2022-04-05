@@ -1,0 +1,33 @@
+.bookdetail-container{
+		margin:auto;
+		max-width:60vw;
+		display:flex;
+		gap:2rem;
+		
+}
+.bookdetail-imgcontainer{
+}
+.bookdetail > *{
+		padding-bottom:0.5rem;
+
+}
+.booktitle{
+		font-size:3rem;
+		padding-bottom:2rem;
+		color:#FDB515;
+		font-weight:500;
+}
+.authorsspan, .publisherspan{
+		color:#F68F02;
+
+}
+.ratingspan, .ratedbyspan, .languagespan{
+		color:#FE9FA1;
+}
+.ratingspantwo, .pagespan{
+		color:#79CCEE;
+}
+.categoriesspan{
+		color:#FDB515;
+
+}

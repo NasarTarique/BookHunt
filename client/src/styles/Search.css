@@ -1,0 +1,79 @@
+.search-container{
+		height:100vh;
+		width:100%;
+		text-align:center;
+}
+.search-input{
+		padding:10px;
+		border:solid 2px #FDB515;
+		border-radius:5px;
+
+}
+.search-button{
+		margin-left:1rem;
+		color:white;
+		background-color:#79CCEE;
+		border-radius:5px;
+		padding:0.6rem 1rem 0.6rem 1rem;
+}
+.search-button:hover{
+		cursor:pointer;
+}
+.img-container{
+		padding:10px;
+
+}
+.booklist-container {
+		margin:auto;
+		width:80vw;
+		display:flex;
+		justify-content:space-evenly;
+		flex-wrap:wrap;
+		padding-top:3rem;
+		gap:2rem;
+		
+        
+}
+.bookcard {
+		max-width:400px;;
+		display:flex;
+		border-radius:5px;
+		gap:1rem;
+
+}
+.bookcard-detail{
+		padding-right:1rem;
+}
+
+.bookcard-title{
+		margin-top:2rem;
+		margin-bottom:0.8rem;
+		font-weight:bold;
+}
+.bookcard-author{
+		margin-bottom:0.2rem;
+}
+.bookcard-rating{
+		padding-bottom:1rem;
+}
+.bookcard-author-span{
+		color:#F68F02;
+}
+.bookcard-rating-span{
+		color:#FE9FA1;
+}
+.bookcard-rating-spantwo{
+		color:#79CCEE;
+}
+.bookcard-button{
+		margin-left:1rem;
+		width:200px;
+		color:white;
+		background-color:#FDB515;
+		border-radius:5px;
+		text-decoration:none;
+		padding:0.5rem 3rem 0.5rem 3rem;
+}
+.bookcard-button:hover{
+		cursor:pointer;
+}

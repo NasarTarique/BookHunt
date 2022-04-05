@@ -36,7 +36,8 @@ const Login = () => {
     });
   };
   const onFailure = (res) => {
-    console.log("login failed : " + res);
+    console.log("login failed : ");
+		  console.log(res);
   };
   return (
     <div className="login-container">
